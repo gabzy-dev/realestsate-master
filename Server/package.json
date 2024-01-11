@@ -5,8 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "postinstall": "prisma generate"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "dev": "nodemon"
   },
   "dependencies": {
     "@prisma/client": "^5.3.1",
