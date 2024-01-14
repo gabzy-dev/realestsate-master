@@ -1,10 +1,9 @@
 import axios from 'axios'
 import dayjs from 'dayjs'
 import {toast} from 'react-toastify'
-const server_URL = import.meta.env.VITE_SERVER_URL;
 
 export const api = axios.create({
-  baseURL: `${server_URL}`
+  baseURL: 'https://backend-p793.onrender.com'
 })
 
 export const getAllProperties = async() => {
