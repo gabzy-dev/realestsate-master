@@ -3,8 +3,7 @@ import dayjs from 'dayjs'
 import {toast} from 'react-toastify'
 
 export const api = axios.create({
-  baseURL:
-  process.env.NODE_ENV === 'development' ? 'http://localhost:8000/api' : 'https://backend-p793.onrender.com',
+  baseURL: process.env.NODE_ENV === 'development' ? 'http://localhost:8000/api' : 'https://backend-p793.onrender.com'
 })
 
 export const getAllProperties = async() => {
