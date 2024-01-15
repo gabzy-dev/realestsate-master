@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 import {toast} from 'react-toastify'
 
 export const api = axios.create({
-  baseURL: 'https://backend-p793.onrender.com/api'
+  baseURL: 'https://backend-p793.onrender.com/api',
 })
 
 export const getAllProperties = async() => {
