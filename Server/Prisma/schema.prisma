@@ -5,7 +5,7 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-   url = env("DATABASE_URL")
+   url = "mongodb+srv://gabzyfarms:TIAJT7bgLGXeG4cG@cluster0.e3c9cgj.mongodb.net/realEstateProject?retryWrites=true&w=majority"
 }
 
 
