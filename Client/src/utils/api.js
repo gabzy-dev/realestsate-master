@@ -16,7 +16,7 @@ export const getAllProperties = async() => {
       } 
        return response.data
     } catch(error){
-        toast.error("something went wrong")
+        toast.error("please wait,loading properties..")
         throw error;
     }
 };
